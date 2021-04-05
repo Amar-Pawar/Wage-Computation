@@ -3,7 +3,7 @@ isAbsent=0
 fullTimePresent=1
 wagePerHr=20
 fullDayHr=8
-partTimeHr=8
+partTimeHr=4
 empCheck=$((RANDOM%3))
 if [ $empCheck -eq 0 ]
 then
