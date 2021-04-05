@@ -8,5 +8,5 @@ then
 	echo "Absent"
 else
 	echo "present"
+	empDailyWages=$(($wagePerHr*$fullDayHr))
 fi
-empDailyWages=$(($wagePerHr*$fullDayHr))
